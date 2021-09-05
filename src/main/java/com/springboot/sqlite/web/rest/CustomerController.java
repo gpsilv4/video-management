@@ -1,7 +1,5 @@
 package com.springboot.sqlite.web.rest;
 
-
-
 import com.springboot.sqlite.service.CustomerService;
 import com.springboot.sqlite.service.mapper.CustomerMapper;
 import org.springframework.http.ResponseEntity;

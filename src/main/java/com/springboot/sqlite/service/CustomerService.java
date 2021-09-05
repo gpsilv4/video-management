@@ -1,6 +1,5 @@
 package com.springboot.sqlite.service;
 
-
 import com.springboot.sqlite.domain.Customer;
 import com.springboot.sqlite.domain.enumeration.Country;
 import com.springboot.sqlite.repository.CustomerRepository;
@@ -10,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 @Service
 public class CustomerService {

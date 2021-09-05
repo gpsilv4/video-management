@@ -1,7 +1,6 @@
 package com.springboot.sqlite.service.mapper;
 
 
-
 import com.springboot.sqlite.domain.Customer;
 import org.mapstruct.Mapper;
 

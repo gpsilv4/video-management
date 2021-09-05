@@ -86,11 +86,31 @@ public class Customer {
         this.status = status;
     }
 
+    /**
+     * Builder Customer for name
+     * @param status name to build.
+     * @return Customer witch status.
+     */
+    public Customer status(final String status){
+        this.status = status;
+        return this;
+    }
+
     public String getCountry() {
         return country;
     }
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    /**
+     * Builder Customer for name
+     * @param country name to build.
+     * @return Customer witch country.
+     */
+    public Customer country(final String country){
+        this.status = country;
+        return this;
     }
 }
