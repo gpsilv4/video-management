@@ -1,13 +1,13 @@
-package com.springboot.sqlite;
+package com.pep.video;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SqliteApplication {
+public class VideoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SqliteApplication.class, args);
+		SpringApplication.run(VideoApplication.class, args);
 	}
 
 }
