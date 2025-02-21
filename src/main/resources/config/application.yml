@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pep
+  datasource:
+    url: jdbc:postgresql://${PEP_DB_HOST:localhost}:${PEP_DB_PORT:5432}/${PEP_DB_NAME:postgres}
+    username: ${PEP_DB_USERNAME:postgres}
+    password: ${PEP_DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:/db/changelog/changelog-master.xml
